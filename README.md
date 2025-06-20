@@ -9,6 +9,9 @@ This is a [Next.js](https://nextjs.org) project Tailwind Css with [`create-next-
 ### Run the development server:
 
 ```bash
+npm run install
+#or
+yarn install
 npm run dev
 # or
 yarn dev
