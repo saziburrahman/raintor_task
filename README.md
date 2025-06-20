@@ -1,6 +1,6 @@
 # Next.js Project
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a [Next.js](https://nextjs.org) project Tailwind Css with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ---
 
@@ -17,3 +17,5 @@ pnpm dev
 # or
 bun dev
 ```
+
+Serve: http:loaclhost:3000
