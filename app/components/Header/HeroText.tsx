@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 
 export default function HeroText() {
   return (
-    <section className="min-h-[400px] md:min-h-[500px] flex items-center m-6 md:ms-12">
-      <div>
+    <section className="min-h-[600px] flex items-center justify-center px-4 sm:px-6 lg:px-12">
+      <div className="max-w-4xl text-center">
         <motion.div
-          className="text-2xl sm:text-5xl lg:text-7xl font-bold text-black leading-tight flex flex-wrap gap-3"
+          className="text-3xl sm:text-6xl lg:text-7xl font-bold text-black leading-tight flex flex-wrap justify-center gap-3"
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
@@ -19,7 +19,7 @@ export default function HeroText() {
         </motion.div>
 
         <motion.div
-          className="mt-3 text-2xl sm:text-5xl lg:text-7xl font-bold text-black flex flex-wrap gap-3"
+          className="mt-4 text-3xl sm:text-6xl lg:text-7xl font-bold text-black flex flex-wrap justify-center gap-3"
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
